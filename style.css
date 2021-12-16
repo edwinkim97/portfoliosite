@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+  
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1bfd8;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+    opacity: .5;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    transition: all .8s ease;
+}
+
+nav ul a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    box-shadow: 0 0 10px lightgray;
+    color: black;
+    background-color: lightgray;
+}
+
+div.picture {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.page {
+    margin-top: 0%;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/websitebackground.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: grey;
+    display: flex;
+}
+
+h1 {
+    margin-top: 0;
+    font-weight: 1000;
+    font-size: 3.5rem;
+}
+
+.titles {
+    padding: 48px 15px;
+}
+
+.heading {
+    align-self: center;
+    padding: 0px 20px;
+}
+
+p, h3 {
+    padding: 10px 15px;
+    font-size: 2rem;
+}
+
+#services, #experience ul li {
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+
+form {
+    padding: 25px;
+    font-size: 2rem;
+    margin: 0px auto;
+    width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color : #d1d1d1;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1bfd8;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+    opacity: .5;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    transition: all .8s ease;
+}
+
+footer ul a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    box-shadow: 0 0 10px lightgray;
+    color: lightgrey;
+    background-color: black;
+}
